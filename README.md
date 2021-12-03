@@ -53,7 +53,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 <br/>
 <h1></h1>
-<a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpg"></a>
+<a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpeg"></a>
 
 
 
