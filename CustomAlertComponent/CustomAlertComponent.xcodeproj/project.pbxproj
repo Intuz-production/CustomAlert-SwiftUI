@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0779D29274B6FD90044F4CE /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0779D28274B6FD90044F4CE /* ButtonComponent.swift */; };
+		C0ACABF62747CF4700261A38 /* CustomAlertComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACABF52747CF4700261A38 /* CustomAlertComponentApp.swift */; };
+		C0ACABF82747CF4700261A38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACABF72747CF4700261A38 /* ContentView.swift */; };
+		C0ACABFA2747CF4B00261A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ACABF92747CF4B00261A38 /* Assets.xcassets */; };
+		C0ACABFD2747CF4B00261A38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ACABFC2747CF4B00261A38 /* Preview Assets.xcassets */; };
+		C0ACAC052747CF7600261A38 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC042747CF7600261A38 /* AlertView.swift */; };
+		C0ACAC072747CFCB00261A38 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC062747CFCB00261A38 /* AppUtility.swift */; };
+		C0ACAC092747D1EF00261A38 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC082747D1EE00261A38 /* Constant.swift */; };
+		C0ACAC152747D28E00261A38 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC0C2747D28E00261A38 /* Montserrat-Medium.ttf */; };
+		C0ACAC162747D28E00261A38 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC0D2747D28E00261A38 /* Montserrat-Light.ttf */; };
+		C0ACAC172747D28E00261A38 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC0E2747D28E00261A38 /* Montserrat-ExtraLight.ttf */; };
+		C0ACAC182747D28E00261A38 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC0F2747D28E00261A38 /* Montserrat-Thin.ttf */; };
+		C0ACAC192747D28E00261A38 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC102747D28E00261A38 /* Montserrat-Bold.ttf */; };
+		C0ACAC1A2747D28E00261A38 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC112747D28E00261A38 /* Montserrat-SemiBold.ttf */; };
+		C0ACAC1B2747D28E00261A38 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC122747D28E00261A38 /* Montserrat-ExtraBold.ttf */; };
+		C0ACAC1C2747D28E00261A38 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC132747D28E00261A38 /* Montserrat-Black.ttf */; };
+		C0ACAC1D2747D28E00261A38 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0ACAC142747D28E00261A38 /* Montserrat-Regular.ttf */; };
+		C0ACAC282747D31D00261A38 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC1F2747D31C00261A38 /* CGFloatExtensions.swift */; };
+		C0ACAC292747D31D00261A38 /* BlockGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC202747D31C00261A38 /* BlockGesture.swift */; };
+		C0ACAC2A2747D31D00261A38 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC212747D31C00261A38 /* UIColor.swift */; };
+		C0ACAC2B2747D31D00261A38 /* General+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC222747D31C00261A38 /* General+Extension.swift */; };
+		C0ACAC2C2747D31D00261A38 /* CGColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC232747D31C00261A38 /* CGColorExtensions.swift */; };
+		C0ACAC2D2747D31D00261A38 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC242747D31C00261A38 /* StringExtensions.swift */; };
+		C0ACAC2E2747D31D00261A38 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC252747D31C00261A38 /* UIViewExtensions.swift */; };
+		C0ACAC2F2747D31D00261A38 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC262747D31C00261A38 /* DateExtensions.swift */; };
+		C0ACAC302747D31D00261A38 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ACAC272747D31C00261A38 /* UIFont.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0779D27274B68840044F4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C0779D28274B6FD90044F4CE /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
+		C0ACABF22747CF4700261A38 /* CustomAlertComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ACABF52747CF4700261A38 /* CustomAlertComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertComponentApp.swift; sourceTree = "<group>"; };
+		C0ACABF72747CF4700261A38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0ACABF92747CF4B00261A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0ACABFC2747CF4B00261A38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0ACAC042747CF7600261A38 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		C0ACAC062747CFCB00261A38 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		C0ACAC082747D1EE00261A38 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C0ACAC0C2747D28E00261A38 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		C0ACAC0D2747D28E00261A38 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		C0ACAC0E2747D28E00261A38 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C0ACAC0F2747D28E00261A38 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		C0ACAC102747D28E00261A38 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		C0ACAC112747D28E00261A38 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		C0ACAC122747D28E00261A38 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C0ACAC132747D28E00261A38 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		C0ACAC142747D28E00261A38 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		C0ACAC1F2747D31C00261A38 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		C0ACAC202747D31C00261A38 /* BlockGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockGesture.swift; sourceTree = "<group>"; };
+		C0ACAC212747D31C00261A38 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C0ACAC222747D31C00261A38 /* General+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "General+Extension.swift"; sourceTree = "<group>"; };
+		C0ACAC232747D31C00261A38 /* CGColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGColorExtensions.swift; sourceTree = "<group>"; };
+		C0ACAC242747D31C00261A38 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C0ACAC252747D31C00261A38 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		C0ACAC262747D31C00261A38 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		C0ACAC272747D31C00261A38 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0ACABEF2747CF4700261A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0ACABE92747CF4700261A38 = {
+			isa = PBXGroup;
+			children = (
+				C0ACABF42747CF4700261A38 /* CustomAlertComponent */,
+				C0ACABF32747CF4700261A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0ACABF32747CF4700261A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACABF22747CF4700261A38 /* CustomAlertComponent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0ACABF42747CF4700261A38 /* CustomAlertComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C0779D27274B68840044F4CE /* Info.plist */,
+				C0ACAC032747CF7600261A38 /* CustomPopup */,
+				C0ACABF52747CF4700261A38 /* CustomAlertComponentApp.swift */,
+				C0ACABF72747CF4700261A38 /* ContentView.swift */,
+				C0ACAC062747CFCB00261A38 /* AppUtility.swift */,
+				C0ACAC082747D1EE00261A38 /* Constant.swift */,
+				C0ACABF92747CF4B00261A38 /* Assets.xcassets */,
+				C0ACABFB2747CF4B00261A38 /* Preview Content */,
+			);
+			path = CustomAlertComponent;
+			sourceTree = "<group>";
+		};
+		C0ACABFB2747CF4B00261A38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACABFC2747CF4B00261A38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0ACAC032747CF7600261A38 /* CustomPopup */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACAC0A2747D28E00261A38 /* Resources */,
+				C0ACAC1E2747D31C00261A38 /* Extension */,
+				C0ACAC042747CF7600261A38 /* AlertView.swift */,
+				C0779D28274B6FD90044F4CE /* ButtonComponent.swift */,
+			);
+			path = CustomPopup;
+			sourceTree = "<group>";
+		};
+		C0ACAC0A2747D28E00261A38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACAC0B2747D28E00261A38 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0ACAC0B2747D28E00261A38 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACAC0C2747D28E00261A38 /* Montserrat-Medium.ttf */,
+				C0ACAC0D2747D28E00261A38 /* Montserrat-Light.ttf */,
+				C0ACAC0E2747D28E00261A38 /* Montserrat-ExtraLight.ttf */,
+				C0ACAC0F2747D28E00261A38 /* Montserrat-Thin.ttf */,
+				C0ACAC102747D28E00261A38 /* Montserrat-Bold.ttf */,
+				C0ACAC112747D28E00261A38 /* Montserrat-SemiBold.ttf */,
+				C0ACAC122747D28E00261A38 /* Montserrat-ExtraBold.ttf */,
+				C0ACAC132747D28E00261A38 /* Montserrat-Black.ttf */,
+				C0ACAC142747D28E00261A38 /* Montserrat-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		C0ACAC1E2747D31C00261A38 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0ACAC1F2747D31C00261A38 /* CGFloatExtensions.swift */,
+				C0ACAC202747D31C00261A38 /* BlockGesture.swift */,
+				C0ACAC212747D31C00261A38 /* UIColor.swift */,
+				C0ACAC222747D31C00261A38 /* General+Extension.swift */,
+				C0ACAC232747D31C00261A38 /* CGColorExtensions.swift */,
+				C0ACAC242747D31C00261A38 /* StringExtensions.swift */,
+				C0ACAC252747D31C00261A38 /* UIViewExtensions.swift */,
+				C0ACAC262747D31C00261A38 /* DateExtensions.swift */,
+				C0ACAC272747D31C00261A38 /* UIFont.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0ACABF12747CF4700261A38 /* CustomAlertComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ACAC002747CF4B00261A38 /* Build configuration list for PBXNativeTarget "CustomAlertComponent" */;
+			buildPhases = (
+				C0ACABEE2747CF4700261A38 /* Sources */,
+				C0ACABEF2747CF4700261A38 /* Frameworks */,
+				C0ACABF02747CF4700261A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAlertComponent;
+			productName = CustomAlertComponent;
+			productReference = C0ACABF22747CF4700261A38 /* CustomAlertComponent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0ACABEA2747CF4700261A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C0ACABF12747CF4700261A38 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C0ACABED2747CF4700261A38 /* Build configuration list for PBXProject "CustomAlertComponent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0ACABE92747CF4700261A38;
+			productRefGroup = C0ACABF32747CF4700261A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0ACABF12747CF4700261A38 /* CustomAlertComponent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0ACABF02747CF4700261A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ACAC162747D28E00261A38 /* Montserrat-Light.ttf in Resources */,
+				C0ACAC1D2747D28E00261A38 /* Montserrat-Regular.ttf in Resources */,
+				C0ACAC1C2747D28E00261A38 /* Montserrat-Black.ttf in Resources */,
+				C0ACABFD2747CF4B00261A38 /* Preview Assets.xcassets in Resources */,
+				C0ACAC152747D28E00261A38 /* Montserrat-Medium.ttf in Resources */,
+				C0ACABFA2747CF4B00261A38 /* Assets.xcassets in Resources */,
+				C0ACAC182747D28E00261A38 /* Montserrat-Thin.ttf in Resources */,
+				C0ACAC172747D28E00261A38 /* Montserrat-ExtraLight.ttf in Resources */,
+				C0ACAC1A2747D28E00261A38 /* Montserrat-SemiBold.ttf in Resources */,
+				C0ACAC1B2747D28E00261A38 /* Montserrat-ExtraBold.ttf in Resources */,
+				C0ACAC192747D28E00261A38 /* Montserrat-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0ACABEE2747CF4700261A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ACAC072747CFCB00261A38 /* AppUtility.swift in Sources */,
+				C0779D29274B6FD90044F4CE /* ButtonComponent.swift in Sources */,
+				C0ACABF82747CF4700261A38 /* ContentView.swift in Sources */,
+				C0ACAC282747D31D00261A38 /* CGFloatExtensions.swift in Sources */,
+				C0ACAC092747D1EF00261A38 /* Constant.swift in Sources */,
+				C0ACAC2B2747D31D00261A38 /* General+Extension.swift in Sources */,
+				C0ACAC2C2747D31D00261A38 /* CGColorExtensions.swift in Sources */,
+				C0ACAC2D2747D31D00261A38 /* StringExtensions.swift in Sources */,
+				C0ACABF62747CF4700261A38 /* CustomAlertComponentApp.swift in Sources */,
+				C0ACAC2A2747D31D00261A38 /* UIColor.swift in Sources */,
+				C0ACAC292747D31D00261A38 /* BlockGesture.swift in Sources */,
+				C0ACAC302747D31D00261A38 /* UIFont.swift in Sources */,
+				C0ACAC2E2747D31D00261A38 /* UIViewExtensions.swift in Sources */,
+				C0ACAC052747CF7600261A38 /* AlertView.swift in Sources */,
+				C0ACAC2F2747D31D00261A38 /* DateExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0ACABFE2747CF4B00261A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0ACABFF2747CF4B00261A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0ACAC012747CF4B00261A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAlertComponent/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAlertComponent/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.CustomAlertComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0ACAC022747CF4B00261A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAlertComponent/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAlertComponent/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.CustomAlertComponent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0ACABED2747CF4700261A38 /* Build configuration list for PBXProject "CustomAlertComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ACABFE2747CF4B00261A38 /* Debug */,
+				C0ACABFF2747CF4B00261A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ACAC002747CF4B00261A38 /* Build configuration list for PBXNativeTarget "CustomAlertComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ACAC012747CF4B00261A38 /* Debug */,
+				C0ACAC022747CF4B00261A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0ACABEA2747CF4700261A38 /* Project object */;
+}
